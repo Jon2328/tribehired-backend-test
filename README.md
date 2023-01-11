@@ -26,3 +26,18 @@ Create an endpoint that allows a user to filter the comments based on all the av
 
 - Once completed, send us a screenshot of your api response for Question 1 & 2. 
 - Make your repo public, and send us the link for us to review
+
+## Answer
+
+Start server via "yarn dev"
+
+1. GET Method via localhost:3000/posts/top-posts
+
+2. POST Method via localhost:3000/search/comments with acceptable body payload of
+	- postId : number
+	- id : number
+	- name : string
+	- email : string
+	- body : string
+
+	Note: require at least one payload to be submitted with the api call
